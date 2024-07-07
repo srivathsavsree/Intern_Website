@@ -12,3 +12,5 @@ const internSchema=new mongoose.Schema({
 });
 
 const internModel=new mongoose.Model('intern',internSchema);
+
+module.exports=internModel;
